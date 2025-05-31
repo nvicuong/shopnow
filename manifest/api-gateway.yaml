@@ -103,7 +103,7 @@ metadata:
   name: shopnow-api-gateway-ingress
   namespace: shopnow
   annotations:
-    # alb.ingress.kubernetes.io/inbound-cidrs: 42.118.154.137/32
+    alb.ingress.kubernetes.io/inbound-cidrs: 42.118.154.137/32
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
